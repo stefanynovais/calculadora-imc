@@ -8,7 +8,7 @@ import IdealWeight from './IdealWeight';
 
 //Função para a lógica do IMC, e validar se o usuário informou os valores numéricos ao peso e altura.
 const FormIMC = () => {
-    // O peso é o valor atual da viriável (imutável), setPeso é uma função para alterar o valor da variável "peso".
+    // O peso é o valor atual da variável (imutável), setPeso é uma função para alterar o valor da variável "peso".
     const [peso, setPeso] = useState(''); //O "useState" seria uma lógica automática para a atualização da interface.
     const [altura, setAltura] = useState('');
     const [imc, setImc] = useState(null);
