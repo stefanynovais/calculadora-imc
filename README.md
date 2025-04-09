@@ -1,8 +1,10 @@
 # calculadora-imc
 Como clonar e baixar o projeto:
-1. No terminal: git clone https://github.com/stefanynovais/calculadora-imc.git
+No terminal:
+1. git clone https://github.com/stefanynovais/calculadora-imc.git
 2. cd calculadoraIMC
 3. npm install
+No VScode (para rodar o projeto):
 4. npx expo start
 
 O objetivo do projeto é calcular o IMC de uma pessoa baseado na altura e peso, e exibir o peso minímo e máximo da mesma, de acordo com estes valores da Organização Mundial da Saúde:
